@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-    max-width: 800px;
+    max-width: 900px;
     padding: 20px;
     background-color: #365F54;
     border-radius: 10px;
@@ -24,25 +24,34 @@ body {
 }
 
 header h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin-bottom: 10px;
     color: #fff;
 }
 
 header h2 {
-    font-size: 1.5rem;
-    margin-bottom: 20px;
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    color: #D9D9D9;
 }
 
-.info p {
-    font-size: 1.2rem;
+.info-box, .descricao-box, .countdown-box {
+    background-color: #456D63;
+    padding: 20px;
     margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.info-box p, .descricao-box p {
+    font-size: 1.3rem;
+    line-height: 1.6;
 }
 
 .details {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 20px;
+    margin-top: 15px;
 }
 
 .details .location, .details .date {
@@ -53,51 +62,45 @@ header h2 {
 
 .details i {
     font-size: 1.5rem;
+    color: #F4F4F4;
 }
 
-.countdown {
-    margin: 20px 0;
-}
-
-#countdown {
+.countdown-box h3 {
     font-size: 1.5rem;
-    font-weight: bold;
-}
-
-.descricao {
-    margin-top: 20px;
-}
-
-.descricao h3 {
-    font-size: 1.8rem;
     margin-bottom: 10px;
 }
 
-.descricao p {
-    font-size: 1.2rem;
+#countdown {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.descricao-box h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
 }
 
 .empresas h3 {
-    margin-top: 30px;
-    font-size: 1.8rem;
+    font-size: 2rem;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 .logos {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 20px;
 }
 
 .logos img {
-    width: 80px;
+    width: 90px;
     height: auto;
     object-fit: contain;
 }
 
 footer p {
     margin-top: 40px;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: #fff;
 }
-
