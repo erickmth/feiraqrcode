@@ -64,6 +64,19 @@ header h2 {
     font-weight: bold;
 }
 
+.descricao {
+    margin-top: 20px;
+}
+
+.descricao h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.descricao p {
+    font-size: 1.2rem;
+}
+
 .empresas h3 {
     margin-top: 30px;
     font-size: 1.8rem;
@@ -87,3 +100,4 @@ footer p {
     font-size: 1.2rem;
     color: #fff;
 }
+
