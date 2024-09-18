@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     // Definir a data da feira
-    const feiraDate = new Date("Oct 08, 2024 23:59:59").getTime();
+    const feiraDate = new Date("Nov 13, 2024 09:00:00").getTime();
 
     // Função de contagem regressiva
     const countdown = setInterval(function() {
