@@ -33,7 +33,7 @@ header {
 }
 
 .logo-escola {
-    width: 250px;
+    width: 100px;
     height: auto;
     margin-bottom: 15px;
 }
@@ -119,6 +119,31 @@ footer p {
     margin-top: 40px;
     font-size: 1.4rem;
     color: #fff;
+}
+
+.footer-school {
+    background-color: #456D63;
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.footer-school p {
+    font-size: 1rem;
+    color: #D9D9D9;
+    margin: 5px 0;
+}
+
+.footer-school a {
+    color: #F4F4F4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-school a:hover {
+    text-decoration: underline;
 }
 
 /* Responsividade */
