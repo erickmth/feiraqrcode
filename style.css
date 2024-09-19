@@ -12,10 +12,12 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    padding: 20px;
 }
 
 .container {
-    max-width: 900px;
+    max-width: 1000px;
+    width: 100%;
     padding: 20px;
     background-color: #365F54;
     border-radius: 10px;
@@ -51,6 +53,7 @@ header h2 {
 .details {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     margin-top: 15px;
 }
 
@@ -87,14 +90,14 @@ header h2 {
 }
 
 .logos {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     gap: 20px;
 }
 
 .logos img {
-    width: 90px;
+    width: 100%;
+    max-width: 100px;
     height: auto;
     object-fit: contain;
 }
@@ -103,4 +106,37 @@ footer p {
     margin-top: 40px;
     font-size: 1.4rem;
     color: #fff;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    header h2 {
+        font-size: 1.5rem;
+    }
+
+    .logos img {
+        max-width: 80px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header h2 {
+        font-size: 1.2rem;
+    }
+
+    .logos img {
+        max-width: 60px;
+    }
+
+    .info-box p, .descricao-box p {
+        font-size: 1.1rem;
+    }
 }
