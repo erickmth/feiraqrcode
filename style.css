@@ -115,6 +115,22 @@ header h2 {
     object-fit: contain;
 }
 
+.btn-arredondado {
+    background-color: #4CAF50; /* Cor de fundo verde */
+    color: white; /* Cor do texto */
+    border: none; /* Sem borda */
+    border-radius: 25px; /* Bordas arredondadas */
+    padding: 10px 20px; /* Espaçamento interno */
+    font-size: 1.2rem; /* Tamanho da fonte */
+    cursor: pointer; /* Cursor como pointer */
+    transition: background-color 0.3s; /* Transição suave para mudança de cor */
+    margin-top: 20px; /* Espaçamento acima do botão */
+}
+
+.btn-arredondado:hover {
+    background-color: #45a049; /* Cor de fundo ao passar o mouse */
+}
+
 footer p {
     margin-top: 40px;
     font-size: 1.4rem;
