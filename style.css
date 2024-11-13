@@ -32,87 +32,21 @@ header {
     margin-bottom: 30px;
 }
 
-.logo-escola {
-    width: 100px;
-    height: auto;
-    margin-bottom: 15px;
-}
-
 header h1 {
     font-size: 3rem;
-    margin-bottom: 10px;
     color: #fff;
 }
 
-header h2 {
-    font-size: 1.8rem;
-    margin-bottom: 30px;
+.agradecimento h2 {
+    font-size: 2rem;
+    margin-top: 20px;
     color: #D9D9D9;
 }
 
-.info-box, .descricao-box, .countdown-box {
-    background-color: #456D63;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 15px;
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
-}
-
-.info-box p, .descricao-box p {
+.agradecimento p {
     font-size: 1.3rem;
     line-height: 1.6;
-}
-
-.details {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin-top: 15px;
-}
-
-.details .location, .details .date {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.details i {
-    font-size: 1.5rem;
-    color: #F4F4F4;
-}
-
-.countdown-box h3 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-}
-
-#countdown {
-    font-size: 1.8rem;
-    font-weight: bold;
-}
-
-.descricao-box h3 {
-    font-size: 2rem;
-    margin-bottom: 10px;
-}
-
-.empresas h3 {
-    font-size: 2rem;
-    margin-top: 40px;
-    margin-bottom: 20px;
-}
-
-.logos {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    gap: 20px;
-}
-
-.logos img {
-    width: 100%;
-    max-width: 100px;
-    height: auto;
-    object-fit: contain;
+    margin: 20px 0;
 }
 
 .btn-arredondado {
@@ -124,7 +58,7 @@ header h2 {
     font-size: 1.2rem; /* Tamanho da fonte */
     cursor: pointer; /* Cursor como pointer */
     transition: background-color 0.3s; /* Transição suave para mudança de cor */
-    margin-top: 20px; /* Espaçamento acima do botão */
+    margin-top: 40px; /* Maior espaçamento acima do botão */
 }
 
 .btn-arredondado:hover {
@@ -137,43 +71,14 @@ footer p {
     color: #fff;
 }
 
-.footer-school {
-    background-color: #456D63;
-    padding: 15px;
-    margin-top: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-
-.footer-school p {
-    font-size: 1rem;
-    color: #D9D9D9;
-    margin: 5px 0;
-}
-
-.footer-school a {
-    color: #F4F4F4;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.footer-school a:hover {
-    text-decoration: underline;
-}
-
 /* Responsividade */
 @media (max-width: 768px) {
     header h1 {
         font-size: 2.5rem;
     }
 
-    header h2 {
+    .agradecimento h2 {
         font-size: 1.5rem;
-    }
-
-    .logos img {
-        max-width: 80px;
     }
 }
 
@@ -182,16 +87,11 @@ footer p {
         font-size: 2rem;
     }
 
-    header h2 {
+    .agradecimento h2 {
         font-size: 1.2rem;
     }
 
-    .logos img {
-        max-width: 60px;
-    }
-
-    .info-box p, .descricao-box p {
+    .agradecimento p {
         font-size: 1.1rem;
     }
-    }
-    
+}
